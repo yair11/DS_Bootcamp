@@ -137,7 +137,7 @@ def plot_path(lat, long, origin_point, destination_point):
 """<------------------------------------------------------------------------------------------------->"""
 """<--------------------------------------------Main------------------------------------------------->"""
 """<------------------------------------------------------------------------------------------------->"""
-all_the_streets_in_city = all_streets_in_city('כפר סבא')
+all_the_streets_in_city = all_streets_in_city('Kfar saba')
 
 address = validating_street(getting_address('location'),all_the_streets_in_city)
 user_location_address = convert_address_list_for_string(address)
